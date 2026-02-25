@@ -7,6 +7,9 @@ import BrandsCarousel from '@/components/sections/BrandsCarousel';
 import { axiosInstance } from '@/utils/axiosInstance';
 import axios from 'axios';
 
+// Force dynamic rendering since we use cookies
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
   title: 'Tzone Bangladesh - Premium Bike Helmets & Riding Gear | Shop Online',
   description: 'Shop the best bike helmets, motorcycle gear, and riding accessories in Bangladesh. Authentic branded products from LS2, AGV, MT, Shoei, HJC with warranty. Fast delivery across Dhaka and all over Bangladesh.',
