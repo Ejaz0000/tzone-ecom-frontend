@@ -10,6 +10,11 @@ const nextConfig = {
                 hostname: 'localhost',
                 port: '8000',
                 pathname: '**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'tzone-ecom-backend.onrender.com',
+                pathname: '**',
             }
         ]
     },
