@@ -12,8 +12,13 @@ const nextConfig = {
                 pathname: '**',
             },
             {
-                protocol: 'https',
+                protocol: 'http',
                 hostname: 'tzone-ecom-backend.onrender.com',
+                pathname: '**',
+            },
+            {
+                protocol: 'https',
+                hostname: '**',
                 pathname: '**',
             }
         ]
